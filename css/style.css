@@ -87,15 +87,18 @@ body {
 }
 
 .messanger,
-.facebook {
+.facebook,
+.top {
     text-decoration: none;
     color: black;
 }
 
 .facebook:hover, 
 .messanger:hover,
+.top:hover,
 .facebook:active, 
-.messanger:active {
+.messanger:active,
+.top:active {
     color: #0099FF;
 }
 
@@ -110,17 +113,13 @@ body {
 
 .mensahe p,
 .about p,
-.contact p {
+.contact p,
+.contact .top {
     font-family: var(--FONT);
+    font-size: var(--FONT-S);
     font-weight: 300;
     align-content: center;
     text-align: center;
-}
-
-.mensahe p,
-.about p,
-.contact p {
-    font-size: var(--FONT-S);
 }
 
 .mensahe p {
