@@ -64,8 +64,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     font-family: var(--FONT);
-    font-size: var(--FONT-S);
-    padding: 0.2rem;
+    font-size: 1rem;
+    padding: 0.1rem;
     background-color: rgb(212, 163, 115);
     position: sticky;
     top: 0;
@@ -140,7 +140,7 @@ body {
     display: flex;
     flex-direction: row;
     margin: var(--TEXT-MAGIN);
-    padding: 0.5rem;
+    padding: 0.7rem;
     box-shadow: 1px 1px 7px 1px rgb(156, 148, 148);
     background: white;
     text-align: center;
@@ -164,7 +164,7 @@ body {
 }
 
 .grid-item {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     justify-content: center;
     align-content: center;
