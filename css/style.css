@@ -64,7 +64,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     font-family: var(--FONT);
-    font-size: x-small;
+    font-size: var(--FONT-S);
     padding: 0.2rem;
     background-color: rgb(212, 163, 115);
     position: sticky;
